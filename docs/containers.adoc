@@ -286,7 +286,7 @@ to scrape metrics.
 
 By default, Crunchy Prometheus detects which environment its running on (Docker, Kube or OCP)
 and applies a default configuration.  If this container is running on Kube or OCP,
-it will use the Kubernetes API to discover pods with the label *"crunchy-collect": "true"*.
+it will use the Kubernetes API to discover pods with the label *``crunchy-collect'': ``true''*.
 Crunchy Collect container must have this label to be discovered.
 
 For Docker environments the Crunchy Collect hostname must be specified as an environment

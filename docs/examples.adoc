@@ -1321,7 +1321,7 @@ for metrics.  These metrics will then be visualized by Crunchy Grafana.
 
 By default, Crunchy Prometheus detects which environment its running on (Docker, Kubernetes, or OpenShift Container Platform)
 and applies a default configuration.  If this container is running on Kubernetes or OpenShift Container Platform,
-it will use the Kubernetes API to discover pods with the label *"crunchy-collect": "true"*.
+it will use the Kubernetes API to discover pods with the label *``crunchy-collect'': ``true''*.
 
 Crunchy Collect container *must* have this label to be discovered in these environments.
 
