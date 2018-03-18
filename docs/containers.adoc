@@ -304,9 +304,9 @@ For a configuration examples, see  link:https://github.com/crunchydata/crunchy-c
 
 *Optional:*
 
- * SCRAPE_INTERVAL - default is "5s", set this value to the number of seconds to scrape
+ * SCRAPE_INTERVAL - default is ``5s'', set this value to the number of seconds to scrape
    metrics from exporters.
- * SCRAPE_TIMEOUT - default is "5s", set this value to the number of seconds to timeout when scraping
+ * SCRAPE_TIMEOUT - default is ``5s'', set this value to the number of seconds to timeout when scraping
    metrics from exporters.
  * CRUNCHY_DEBUG - default is false, set this value to true to debugging in logs.
    Note: this mode can reveal secrets in logs.
