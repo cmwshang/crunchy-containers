@@ -8,7 +8,7 @@ v1.8.2, {docdate}
 
 You will need to do the following steps prior to testing.
 
-*Note*: If version numbers have not been updated, you will need update version numbers in documentation and examples in your test instance.
+NOTE: If version numbers have not been updated, you will need update version numbers in documentation and examples in your test instance.
 
 It is recommended to build a clean virtual machine for all three applications (Docker, OpenShift, Kubernetes) on both operating systems (CentOS 7, RHEL 7).
 This will ensure the most accurate results from testing.
@@ -83,4 +83,4 @@ For each container, a link is added below that corresponds to the link:https://g
 
 Copyright © 2018 Crunchy Data Solutions, Inc.
 
-CRUNCHY DATA SOLUTIONS, INC. PROVIDES THIS GUIDE "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF NON INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+CRUNCHY DATA SOLUTIONS, INC. PROVIDES THIS GUIDE ``AS IS'' WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF NON INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
